@@ -1,6 +1,6 @@
 # Architecture
 
-A high-level look at how Studio Darkroom is designed — the patterns that shape the codebase, the engineering decisions worth talking about, and the principles the project optimizes for.
+A high-level look at how Studio Darkroom Pro is designed — the patterns that shape the codebase, the engineering decisions worth talking about, and the principles the project optimizes for.
 
 > Source code is private. This page covers the *thinking*, not the *recipe* — implementation specifics live in the private repo.
 
@@ -8,7 +8,7 @@ A high-level look at how Studio Darkroom is designed — the patterns that shape
 
 ## A modular, layered system
 
-Studio Darkroom is a backend-first WordPress plugin. The codebase is structured so each system can evolve independently — folders, smart filtering, focal points, the gallery module, the licensing layer, and the diagnostics surface all live as separate concerns with clear boundaries.
+Studio Darkroom Pro is a backend-first WordPress plugin. The codebase is structured so each system can evolve independently — folders, smart filtering, focal points, the gallery module, the licensing layer, and the diagnostics surface all live as separate concerns with clear boundaries.
 
 The plugin runs on a **dual-layer pattern**: a modern, namespaced layer where new features land, and a stable legacy layer where the original code continues to operate. Migration between the two is gradual and tied to feature work — never a big-bang rewrite, never an endless deprecation drag. Each cluster moves when the cost of touching it without modernization exceeds the cost of modernizing it.
 
@@ -119,4 +119,4 @@ Five constraints the architecture is consistently optimized for:
 
 Implementation specifics — file paths, class signatures, capability names, cache keys, exact timing parameters, internal data structures — are intentionally omitted. They live in the private repo.
 
-For licensing inquiries, evaluation copies, or technical conversations with prospective collaborators: [studiodarkroom.com](https://studiodarkroom.com).
+For licensing inquiries, evaluation copies, or technical conversations with prospective collaborators: [studiogrid.tech](https://studiogrid.tech).
