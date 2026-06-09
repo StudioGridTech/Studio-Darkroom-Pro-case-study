@@ -1,4 +1,4 @@
-# Studio Darkroom — Case Study
+# Studio Darkroom Pro — Case Study
 
 > A focused media-workflow plugin for WordPress. Folder management, attachment curation, focal points, gallery output, and a diagnostics surface for site admins — built for sites that handle thousands of images.
 
@@ -196,4 +196,4 @@ Built by **Mark Hernandez** ([Studio Grid](https://github.com/studiogrid)). Part
 
 This is a private commercial plugin. Source code is not public. This page exists to document the engineering for prospective collaborators and employers.
 
-For licensing inquiries: [studiodarkroom.com](https://studiodarkroom.com).
+For licensing inquiries: [studiodgrid.tech).
